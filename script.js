@@ -69,14 +69,14 @@ const galleryData = {
             {
                 "albumTitle": "Ранние наброски Затмения",
                 "images": [
-                    { "title": "Скетч #1", "src": "art1.jpg" },
-                    { "title": "Скетч #2", "src": "art2.jpg" }
+                    { "title": "Скетч #1", "src": "images/art1.jpg" },
+                    { "title": "Скетч #2", "src": "images/art2.jpg" }
                 ]
             },
             {
                 "albumTitle": "Финальные постеры",
                 "images": [
-                    { "title": "Постер А", "src": "art3.jpg" }
+                    { "title": "Постер А", "src": "images/art3.jpg" }
                 ]
             }
         ]
@@ -87,14 +87,14 @@ const galleryData = {
             {
                 "albumTitle": "Магия Азулы (HD)",
                 "images": [
-                    { "title": "Чистое пламя", "src": "azula.jpg" },
-                    { "title": "Атака", "src": "art2.jpg" }
+                    { "title": "Чистое пламя", "src": "images/azula.jpg" },
+                    { "title": "Атака", "src": "images/art2.jpg" }
                 ]
             },
             {
                 "albumTitle": "Обои на рабочий стол",
                 "images": [
-                    { "title": "Обои 4К", "src": "art3.jpg" }
+                    { "title": "Обои 4К", "src": "iages/art3.jpg" }
                 ]
             }
         ]
@@ -105,7 +105,7 @@ const galleryData = {
             {
                 "albumTitle": "Поколение молнии",
                 "images": [
-                    { "title": "Вспышка", "src": "art3.jpg" }
+                    { "title": "Вспышка", "src": "images/art3.jpg" }
                 ]
             }
         ]
