@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    cursor: default !important; /* Намертво возвращаем обычную стрелку мыши! */
+    cursor: default !important; 
 }
 
 html {
@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background-image: url('bg-fire.png'); /* Если фон пропадет, проверь имя своей картинки */
+    background-image: url('bg-fire.png'); 
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -133,25 +133,25 @@ body {
 #lightbox-caption { margin-top: 20px; color: rgba(255, 255, 255, 0.7); font-size: 1.1rem; letter-spacing: 1px; }
 
 /* ========================================================
-   5. ЕБЕЙШАЯ АДАПТИВНОСТЬ ПОД ТЕЛЕФОНЫ (МЕДИА-ЗАПРОСЫ)
+   5.  АДАПТИВНОСТЬ ПОД ТЕЛЕФОНЫ 
    ======================================================== */
 @media (max-width: 900px) {
-    * { cursor: default !important; } /* На телефонах отключаем скрытие курсора */
-    .custom-cursor-dot, .custom-cursor-glow { display: none; } /* Прячем курсор-огонек */
+    * { cursor: default !important; } 
+    .custom-cursor-dot, .custom-cursor-glow { display: none; } 
 
-    /* Боковая панель переезжает вниз экрана (как в мобильной Opera) */
+    
     .sidebar {
         width: 100%; height: 60px; bottom: 0; top: auto; left: 0;
         border-right: none; border-top: 1px solid rgba(0, 240, 255, 0.15);
         background: #09090d;
     }
     .sidebar-menu { flex-direction: row; justify-content: space-around; width: 100%; gap: 0; }
-    .sidebar-divider { display: none; } /* Убираем разделитель на мобилках */
-    .tooltip { display: none !important; } /* На смартфонах подсказки при наведении не нужны */
+    .sidebar-divider { display: none; } 
+    .tooltip { display: none !important; }
 
-    /* Перестраиваем шапку сайта */
+   
     .navbar { padding: 15px 20px; background: #050508; text-align: center; }
     .logo { font-size: 1.1rem; width: 100%; }
 
-    /* Главный экран: Текст идет вверх, 3D-карточка ровно под него */
+    
     .hero-section {flex-direction: column; justify-content: center;padding: 100px 20px 80px 20px; height: auto; min-height: 100vh; gap: 30px;}.hero-content { text-align: center; max-width: 100%; }.main-title { font-size: 2.2rem; }.neon-text { font-size: 2.5rem; }.description { font-size: 0.95rem; margin-bottom: 25px; }.btn-action { align-self: center; margin: 0 auto; display: block; width: 200px; padding: 12px 0; }/* Уменьшаем карточку Азулы под экран смартфона */.card-container { width: 100%; display: flex; justify-content: center; }.card { width: 280px; height: 400px; padding: 25px; }.card-content h2 { font-size: 1.6rem; }/* Корректируем отступы галереи */.gallery-section { padding: 60px 20px 100px 20px; }.gallery-title { font-size: 2rem; margin-bottom: 30px; }.active-album-view { padding: 20px; }.active-album-title { font-size: 1.5rem; }/* Новые мобильные вылеты: на смартфонах вылетает сверху и снизу для красоты */@keyframes slideFromLeft { 0% { opacity: 0; transform: translateY(-40px); } 100% { opacity: 1; transform: translateY(0); } }@keyframes slideFromRight { 0% { opacity: 0; transform: translateY(40px); } 100% { opacity: 1; transform: translateY(0); } }}
