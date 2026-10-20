@@ -16,7 +16,6 @@ window.addEventListener('mousemove', (e) => {
 // 2. ИНТЕРАКТИВ 3D-КАРТОЧКИ АЗУЛЫ
 // ========================================================
 const card = document.querySelector('.card');
-
 card.addEventListener('mousemove', (e) => {
     const rect = card.getBoundingClientRect();
     const x = e.clientX - rect.left - rect.width / 2;
