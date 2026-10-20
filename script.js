@@ -52,7 +52,8 @@ sidebarItems.forEach(item => {
             const targetSection = document.getElementById(targetId);
             if (targetSection) {
                 targetSection.scrollIntoView({ behavior: 'smooth' });
-                document.querySelector('.sidebar-item.active').classList.remove('active');
+            const activeItem = document.querySelector('.sidebar-item.active');
+if (activeItem) activeItem.classList.remove('active');    
                 item.classList.add('active');
             }
         }
