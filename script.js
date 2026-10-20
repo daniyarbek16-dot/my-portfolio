@@ -87,14 +87,14 @@ const galleryData = {
             {
                 "albumTitle": "Магия Азулы (HD)",
                 "images": [
-                    { "title": "Чистое пламя", "src": "images/azula.jpg" },
+                    { "title": "Чистое пламя", "src": "images/my-art-1.jpg" },
                     { "title": "Атака", "src": "images/art2.jpg" }
                 ]
             },
             {
                 "albumTitle": "Обои на рабочий стол",
                 "images": [
-                    { "title": "Обои 4К", "src": "iages/art3.jpg" }
+                    { "title": "Обои 4К", "src": "images/art3.jpg" }
                 ]
             }
         ]
